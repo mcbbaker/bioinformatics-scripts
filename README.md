@@ -1,4 +1,4 @@
 # bioinformatics-scripts
 **_(Work Related)_**
 
-Various bioinformatics scripts. At the top of each script, a 'usage' and 'purpose' is included.
+Various bioinformatics scripts. A 'usage' and 'purpose' is included at the top of most scripts.
