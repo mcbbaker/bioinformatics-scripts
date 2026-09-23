@@ -32,7 +32,13 @@ for line in assembly:
 for line in gMap:
     line = line.strip('\n')
     line = line.split('\t')
-    print(*line, order[line[0]], sep='\t')
+    # if the utg is in the assembly file and order # is known
+    if line[0] in order:
+        print(*line, order[line[0]], sep='\t')
+    # otherwise, just print line
+    # comment out to print the group of the assembly file only
+    #else:
+    #    print(*line, sep='\t')
 
 
 
